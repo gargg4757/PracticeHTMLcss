@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>pseudo selectors and more designing</title>
+    <style>
+        .container{
+            border:2px solid red;
+            background-color: rgb(187, 83, 156);
+            padding:34px;
+            margin: auto;
+            width:445px;
+
+
+        }
+        a{
+             text-decoration: none;/*help to remove from from line from read more */
+
+        }/*pseudo selector (cursor related)*/
+        a:hover{
+            color: green;
+            background-color: aqua;
+
+
+        }
+        a:visited{
+           background-color: yellow; 
+
+        }
+        a:active{
+            background-color: darkcyan;
+
+        }
+        .btn:hover{
+            color:darkgoldenrod;
+            background-color: crimson;
+            border: 2px solid royalblue;
+
+        }
+        .btn{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:bold ;
+            background-color: violet;
+            padding: 13px;
+            border:none;
+            cursor:pointer;
+            font-size: 13px;
+            border-radius: 4px;
+
+
+
+    
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="conr1"> 
+    <h3>this is my heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium blanditiis quibusdam voluptate? Suscipit, possimus. Unde facere vitae veritatis corrupti sequi ullam laudantium nam numquam natus, accusamus nulla expedita et debitis.</p>
+    <a href ="https://google.com" class="btn">read more</a>
+    <button class="btn">contact us</button>
+</div>
+    
+    
+    
+
+    
+</body>
+</html>
